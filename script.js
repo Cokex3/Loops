@@ -1,4 +1,7 @@
 var main = function (input) {
-  var myOutputValue = 'hello world';
+  myOutputValue = "";
+  for (var counter = 0; counter < 6; counter += 1) {
+    myOutputValue = myOutputValue + "hello ";
+  }
   return myOutputValue;
 };
